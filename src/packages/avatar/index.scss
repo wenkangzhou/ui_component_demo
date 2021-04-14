@@ -1,0 +1,44 @@
+.jlgl-avatar {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+  position: relative;
+  margin-right: 24px;
+  flex: 0 0 auto; // 防止被压缩
+  .icon {
+    background-size: 100% 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .text {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+}
+.avatar-large {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+.avatar-small {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+}
+.avatar-normal {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+}
+.avatar-round {
+  border-radius: 50%;
+}
+.avatar-square {
+  border-radius: 100%;
+}

@@ -1,0 +1,18 @@
+{
+  "nav": [
+    {
+      "name": "基础组件",
+      "packages": [
+        {
+          "name": "Avatar",
+          "sort": 7,
+          "cName": "头像",
+          "type": "component",
+          "show": true,
+          "desc": "头像",
+          "author": "Jim"
+        }
+      ]
+    }
+  ]
+}
